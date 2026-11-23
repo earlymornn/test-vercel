@@ -47,3 +47,65 @@ a {
     color-scheme: dark;
   }
 }
+
+
+.form-container {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px #e8b5ca55;
+}
+
+.form-container h1 {
+  color: #d63384;
+  margin-bottom: 10px;
+}
+
+.form-container p {
+  color: #987080;
+  margin-bottom: 25px;
+}
+
+.form-container label {
+  display: block;
+  margin: 15px 0 8px;
+  font-weight: bold;
+}
+
+.form-container input,
+.form-container textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #edbfd2;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+}
+
+.form-container textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.form-container button {
+  margin-top: 20px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #e75496;
+  color: white;
+  cursor: pointer;
+}
+
+.form-container .back-button {
+  margin-left: 10px;
+  background: #987080;
+}
+
+@media (max-width: 600px) {
+  .form-container {
+    margin: 20px;
+  }
+}
